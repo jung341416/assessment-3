@@ -1,0 +1,30 @@
+.title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+#images_section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.image_container img {
+  width: 200px;
+  height: 200px;
+}
+.image_name {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.image_price {
+  color: green;
+}
+.add_btn {
+  background-color: green;
+  color: white;
+  border-radius: 15%;
+}
