@@ -4,14 +4,24 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/website/styles.css">
   <script src='/website/index.js' defer></script>
   <title>Shopping Cart</title>
 </head>
 <body>
-  <div>
-    <p class="display_name"></p>
-    <p class="display_price"></p>
-  </div>
+  <h1 class="cart_title">Cart</h1>
+  <table class="table">
+    <thead id="table_head">
+      <tr>  
+        <th class= "item_name"scope="col">Item</th>
+        <th class= "item_price"scope="col">Price</th>
+      </tr>
+    </thead>
+    <tbody id="table_body">
+      <tr>
+        <th scope="row" class="input_name"></th>
+        <td class="input_price"></td>
+      </tr>
 </body>
 </html>

@@ -7,7 +7,7 @@
   SELECT c.first_name, c.last_name ,ad.line_1, ad.city, ad.state, ad.zipcode, oi.date, oi.id
     FROM addresses AS ad
     JOIN order_informations as oi on  ad.id = oi.address_id
-    JOIN customers AS c on ad.id = c.address_id;
+    JOIN customers AS c on ad.id = c.address_id
     WHERE DATE_PART('year', oi.date::date) = '2020';
   -- 3. Retrieve all product details for products that are under the "Kitchen" category
   SELECT * 
