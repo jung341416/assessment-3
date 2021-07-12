@@ -1,0 +1,69 @@
+<!--Hello World-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/website/styles.css">
+  <script src='/website/index.js' defer></script>
+  <title>e-commerce-shop</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CodePlatoon Warehouse</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="games.html">GAMES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pet.html">PETS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="books.html">BOOKS</a>
+          </li>
+    
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-success" id="shopping_cart" type="submit">Shopping Cart</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="main_section">
+    <h1 class="title">Games</h1>
+    <div id="images_section">
+      <div id="first_image_section" class="image_container">
+        <img id ="first_image" class="d3" src="/images/games/d3.jpeg" alt="diablo3">
+        <p class="image_name first">Diablo3</p>
+        <p class="image_price first">$29.99</p>
+        <button id="click_btn" class="add_btn first">Add</button>
+      </div>
+      <div id="third_image_section" class="image_container">
+        <img id ="third_image" class="cs" src="/images/games/counterstrike.jpeg" alt="counter strike">
+        <p class="image_name third">Counter Strike</p>
+        <p class="image_price third">$19.99</p>
+        <button id="click_btn" class="add_btn third">Add</button>
+      </div>
+      <div id="fourth_image_section" class="image_container">
+        <img id="fourth_image" class="sc2" src="/images/games/sc.png" alt="starcraft">
+        <p class="image_name fourth">starcraft2</p>
+        <p class="image_price fourth">$19.99</p>
+        <button id="click_btn" class="add_btn fourth">Add</button>
+      </div>
+    </div>
+
+
+  </div>
+  
+</body>
+</html>
